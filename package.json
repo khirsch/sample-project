@@ -1,0 +1,13 @@
+{
+  "name": "sample-project",
+  "version": "1.0.0",
+  "description": "This is a sample project for the good folks over at Saffire.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "Katrina Hirsch <katrina.hirsch@gmail.com>",
+  "license": "MIT",
+  "repository": "https://github.com/khirsch/sample-project.git"
+}
