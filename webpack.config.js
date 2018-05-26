@@ -9,6 +9,16 @@ module.exports = {
   },
   module: {
       rules: [
+        {
+          test: /\.(sass|scss)$/,
+          use: [{
+            loader: "style-loader"
+          }, {
+            loader: "css-loader"
+          }, {
+            loader: "sass-loader"
+          }]
+        }
       ]
   },
   plugins: [
@@ -19,6 +29,6 @@ module.exports = {
   ],
   devServer: {
       contentBase: './src/public',
-      port: 7700, 
+      port: 7700,
   }
 };
