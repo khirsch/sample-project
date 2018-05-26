@@ -8,7 +8,7 @@ This is a sample project for the good folks over at Saffire.
 
 ## Installation
 
-
+_To be filled out later!_
 
 ## Known Bugs
 
