@@ -19,6 +19,13 @@ module.exports = {
           }, {
             loader: "sass-loader"
           }]
+        },
+        {
+          test: /\.js$/,
+          use: 'babel-loader',
+          exclude: [
+            /node_modules/
+          ]
         }
       ]
   },
