@@ -1,0 +1,6 @@
+@mixin font-face($family) {
+  @font-face {
+    font-family: $family;
+    src: url('#{$font-path}/#{$family}.ttf') format('truetype');
+  }
+}
