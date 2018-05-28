@@ -16,7 +16,7 @@ Then:
 * `git clone https://github.com/khirsch/sample-project`
 * `cd sample-project`
 * `npm install`
-* 'yarn start'
+* `yarn start`
 
 ## Known Bugs
 
