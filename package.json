@@ -6,7 +6,6 @@
   "scripts": {
     "start": "webpack-dev-server --history-api-fallback --inline --progress"
   },
-  "keywords": [],
   "author": "Katrina Hirsch <katrina.hirsch@gmail.com>",
   "license": "MIT",
   "repository": "https://github.com/khirsch/sample-project.git",
