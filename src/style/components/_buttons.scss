@@ -3,6 +3,10 @@ button {
   width: 8em;
   padding: 0.35em 1em;
   margin: 1rem;
+
+  &:hover {
+    cursor: pointer;
+  }
 }
 
 .orange-button {
