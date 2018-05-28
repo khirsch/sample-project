@@ -1,0 +1,26 @@
+button {
+  border-radius: 30px;
+  width: 8em;
+  padding: 0.35em 1em;
+  margin: 1rem;
+}
+
+.orange-button {
+  background-color: $orange;
+  border: none;
+}
+
+.blue-button {
+  background-color: transparent;
+  border: 2px solid $blue;
+}
+
+.white-button {
+  background-color: transparent;
+  border: 2px solid $white;
+  border-radius: 50%;
+  width: 80px;
+  height: 80px;
+  padding: 1em;
+  margin: 15em auto 0;
+}

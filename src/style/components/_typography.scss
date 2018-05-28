@@ -4,12 +4,6 @@
   font-family: 'OpenSans';
 }
 
-nav {
-  float: right;
-  text-align: right;
-  margin-right: 12em;
-}
-
 ul {
   list-style-type: none;
   color: $white;
@@ -32,4 +26,43 @@ ul {
       color: $blue;
     }
   }
+}
+
+#main {
+  color: $white;
+
+  h1 {
+    @media only screen and (min-width: 960px) {
+      font-weight: normal;
+      font-size: 70px;
+      padding: 30vh 0 0;
+      margin: 0
+    }
+  }
+
+  p {
+    @media only screen and (min-width: 960px) {
+      font-size: 18px;
+      padding: 0 24em;
+      line-height: 1.5em;
+    }
+  }
+}
+
+button {
+  font-size: 18px;
+}
+
+.orange-button {
+  color: $white;
+}
+
+.blue-button {
+  color: $blue;
+}
+
+.white-button {
+  text-transform: uppercase;
+  color: $white;
+  font-size: 12px;
 }

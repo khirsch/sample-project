@@ -1,5 +1,6 @@
 header {
   position: fixed;
+  top: 0;
   width: 100vw;
   height: 12vh;
   background-color: $steel;
@@ -14,4 +15,12 @@ nav {
     text-align: right;
     margin-right: 12em;
   }
+}
+
+#main {
+  background-image: url($image-path + '/bluecrowd.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 100vh;
+  text-align: center;
 }
