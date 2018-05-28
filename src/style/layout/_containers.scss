@@ -17,10 +17,32 @@ nav {
   }
 }
 
-#main {
-  background-image: url($image-path + '/bluecrowd.jpg');
+section {
   background-size: cover;
   background-position: center;
-  height: 100vh;
   text-align: center;
+}
+
+#main {
+  background-image: url($image-path + '/bluecrowd.jpg');
+  height: 100vh;
+}
+
+#second {
+  background-image: url($image-path + '/pattern-bg.png');
+  height: 50vh;
+}
+
+#third {
+  background-image: url($image-path + '/blueconcert.jpg');
+  background-position: fixed;
+
+  div {
+    float: left;
+    width: 50vw;
+  }
+  button {
+    display: block;
+    margin: auto;
+  }
 }
