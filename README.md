@@ -6,9 +6,17 @@
 
 This is a sample project for the good folks over at Saffire.
 
-## Installation
+## Prerequisites & Installation
 
-_To be filled out later!_
+First, you will need:
+* [Node.js](http://nodejs.org)
+* [Yarn](https://yarnpkg.com/)
+
+Then:
+* `git clone https://github.com/khirsch/sample-project`
+* `cd sample-project`
+* `npm install`
+* 'yarn start'
 
 ## Known Bugs
 
