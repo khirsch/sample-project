@@ -36,13 +36,11 @@ section {
 #third {
   background-image: url($image-path + '/blueconcert.jpg');
   background-position: fixed;
+  height: 80vh;
 
   div {
     float: left;
     width: 50vw;
-  }
-  button {
-    display: block;
-    margin: auto;
+    margin: 10em 0;
   }
 }

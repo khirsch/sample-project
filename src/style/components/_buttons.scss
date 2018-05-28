@@ -37,3 +37,11 @@ button {
   padding: 1em;
   margin: 15em auto 0;
 }
+
+#third {
+  button {
+    clear: both;
+    display: block;
+    margin: auto;
+  }
+}

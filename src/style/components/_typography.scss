@@ -28,6 +28,11 @@ ul {
   }
 }
 
+h1 {
+  font-weight: normal;
+  font-size: 70px;
+}
+
 h2 {
   text-transform: uppercase;
   color: $blue;
@@ -35,23 +40,9 @@ h2 {
   padding-top: 1em;
 }
 
-#main {
-  h1 {
-    @media only screen and (min-width: 960px) {
-      font-weight: normal;
-      font-size: 70px;
-      padding: 30vh 0 0;
-      margin: 0
-    }
-  }
-
-  p {
-    @media only screen and (min-width: 960px) {
-      font-size: 18px;
-      padding: 0 24em;
-      line-height: 1.5em;
-    }
-  }
+p {
+  font-size: 18px;
+  line-height: 1.5em;
 }
 
 button {
@@ -78,4 +69,29 @@ button {
   text-transform: uppercase;
   color: $white;
   font-size: 12px;
+}
+
+#main {
+  h1 {
+    @media only screen and (min-width: 960px) {
+      padding: 30vh 0 0;
+      margin: 0
+    }
+  }
+
+  p {
+    @media only screen and (min-width: 960px) {
+      padding: 0 24em;
+    }
+  }
+}
+
+#third {
+  h1 {
+    margin: 0;
+  }
+
+  p {
+    padding: 0 8em;
+  }
 }
