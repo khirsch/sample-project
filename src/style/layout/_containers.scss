@@ -41,17 +41,17 @@ footer {
   }
 }
 
-#main {
+#main-feature {
   background-image: url($image-path + '/bluecrowd.jpg');
   height: 100vh;
 }
 
-#second {
+#second-feature {
   background-image: url($image-path + '/pattern-bg.png');
   height: 50vh;
 }
 
-#third {
+#third-feature {
   background-image: url($image-path + '/blueconcert.jpg');
   background-position: fixed;
   height: 80vh;
@@ -63,7 +63,7 @@ footer {
   }
 }
 
-#fourth {
+#fourth-feature {
   display: flex;
   height: 50vh;
 
