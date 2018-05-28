@@ -8,11 +8,20 @@ button {
 .orange-button {
   background-color: $orange;
   border: none;
+
+  &:hover {
+    background-color: transparent;
+    border: 2px solid $orange;
+  }
 }
 
 .blue-button {
   background-color: transparent;
   border: 2px solid $blue;
+
+  &:hover {
+    background-color: $blue;
+  }
 }
 
 .white-button {

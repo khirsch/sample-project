@@ -55,10 +55,18 @@ button {
 
 .orange-button {
   color: $white;
+
+  &:hover {
+    color: $orange;
+  }
 }
 
 .blue-button {
   color: $blue;
+
+  &:hover {
+    color: $white;
+  }
 }
 
 .white-button {
