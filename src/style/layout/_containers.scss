@@ -23,6 +23,18 @@ section {
   text-align: center;
 }
 
+footer {
+  div {
+    height: 80vh;
+    width: 50vw;
+    float: left;
+
+    &:last-of-type {
+      background-color: $black;
+    }
+  }
+}
+
 #main {
   background-image: url($image-path + '/bluecrowd.jpg');
   height: 100vh;
@@ -43,8 +55,4 @@ section {
     width: 50vw;
     margin: 10em 0;
   }
-}
-
-#fourth {
-  display: flex;
 }
