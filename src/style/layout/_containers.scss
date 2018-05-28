@@ -29,6 +29,12 @@ footer {
     width: 50vw;
     float: left;
 
+    &:first-of-type {
+      background-image: url($image-path + '/footer-bg.jpg');
+      background-size: cover;
+      background-position: center;
+    }
+
     &:last-of-type {
       background-color: $black;
     }
