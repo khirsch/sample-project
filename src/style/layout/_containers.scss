@@ -56,3 +56,43 @@ footer {
     margin: 10em 0;
   }
 }
+
+#fourth {
+  display: flex;
+  height: 50vh;
+
+  div {
+    background-position: center;
+    max-height: 500px;
+
+    &:nth-of-type(1) {
+      width: 50%;
+      background-image: url($image-path + '/image1.jpeg');
+    }
+
+    &:nth-of-type(2) {
+      width: 50%;
+      background-image: url($image-path + '/image2.jpeg');
+    }
+
+    &:nth-of-type(3) {
+      width: 50%;
+      background-image: url($image-path + '/image3.jpeg');
+    }
+
+    &:nth-of-type(4) {
+      width: 50%;
+      background-image: url($image-path + '/image4.jpeg');
+    }
+
+    &:nth-of-type(5) {
+      width: 50%;
+      background-image: url($image-path + '/image5.jpeg');
+    }
+
+    &:nth-of-type(6) {
+      width: 50%;
+      background-image: url($image-path + '/image6.jpeg');
+    }
+  }
+}
