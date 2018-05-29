@@ -27,6 +27,7 @@ footer {
   div {
     height: 80vh;
     width: 100vw;
+    padding: 2em;
 
     @media #{$desktop} {
       width: 50vw;

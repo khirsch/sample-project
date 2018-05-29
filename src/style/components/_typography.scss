@@ -65,7 +65,8 @@ footer {
   ul {
     text-align: center;
     padding: 1em;
-    margin-top: 3em;
+    font-size: 11.5px;
+    margin-top: 6em;
     text-transform: uppercase;
 
     @media #{$desktop} {
@@ -78,15 +79,19 @@ footer {
   }
 
   p:first-of-type {
-    padding: 0 1em;
+    padding: 1em 0;
 
     @media #{$desktop} {
-      padding: 0 5.5em;
+      padding: 0 3.5em;
     }
   }
 
   p:last-of-type {
-    font-size: 14px;
+    font-size: 11px;
+
+    @media #{$desktop} {
+      font-size: 14px;
+    }
   }
 }
 
