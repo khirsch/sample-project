@@ -116,10 +116,6 @@ footer {
   p {
     padding: 0 1em;
 
-    @media only screen and (min-width: 768px) {
-      padding: 0 5em;
-    }
-
     @media only screen and (min-width: 960px) {
       padding: 0 24em;
     }
@@ -132,6 +128,10 @@ footer {
   }
 
   p {
+    padding: 0 1em;
+
+    @media only screen and (min-width: 960px) {
     padding: 0 8em;
+    }
   }
 }

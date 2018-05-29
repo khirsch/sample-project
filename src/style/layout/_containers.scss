@@ -57,12 +57,14 @@ footer {
   height: 80vh;
 
   div {
-    float: left;
-    width: 50vw;
-    margin: 5em 0;
+    width: 100vw;
+    padding: 2em 1em 0;
 
     @media only screen and (min-width: 960px) {
+      float: left;
+      width: 50vw;
       margin: 10em 0;
+      padding: 0;
     }
   }
 }
