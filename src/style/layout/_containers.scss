@@ -78,13 +78,12 @@ footer {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  height: 50vh;
+  height: 100vh;
 
   div {
     background-position: center;
-    max-height: 500px;
     width: 100%;
-    // height: 100%;
+    height: auto;
 
     @media #{$desktop} {
       width: 50%;
@@ -97,18 +96,34 @@ footer {
 
     &:nth-of-type(2) {
       background-image: url($image-path + '/image2.jpeg');
+
+      @media #{$desktop} {
+        width: 25%;
+      }
     }
 
     &:nth-of-type(3) {
       background-image: url($image-path + '/image3.jpeg');
+
+      @media #{$desktop} {
+        width: 25%;
+      }
     }
 
     &:nth-of-type(4) {
       background-image: url($image-path + '/image4.jpeg');
+
+      @media #{$desktop} {
+        width: 25%;
+      }
     }
 
     &:nth-of-type(5) {
       background-image: url($image-path + '/image5.jpeg');
+
+      @media #{$desktop} {
+        width: 25%;
+      }
     }
 
     &:nth-of-type(6) {
