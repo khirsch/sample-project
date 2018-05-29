@@ -27,6 +27,10 @@ module.exports = {
           exclude: [
             /node_modules/
           ]
+        },
+        {
+          test: require.resolve('owl-carousel'),
+          use: 'imports-loader?this=>window'
         }
       ]
   },
