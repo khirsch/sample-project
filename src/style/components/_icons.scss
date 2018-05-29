@@ -10,3 +10,13 @@ i {
 .icon {
   height: 1em;
 }
+
+#menu-icon {
+  position: absolute;
+  right: 0px;
+  margin: 1.5em 1em;
+
+  @media only screen and (min-width: 960px) {
+    display: none;
+  }
+}
