@@ -80,6 +80,10 @@ footer {
   flex-direction: row;
   height: 300vh;
 
+  @media #{$desktop} {
+    height: 100vh;
+  }
+
   div {
     background-position: center;
     width: 100vw;

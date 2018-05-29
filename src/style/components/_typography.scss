@@ -29,6 +29,20 @@ h2 {
   padding-top: 1em;
 }
 
+h4 {
+  background-color: $blue;
+  width: 80vw;
+  padding: 1em;
+  text-align: right;
+  position: relative;
+  top: 30vh;
+
+  @media #{$desktop} {
+    width: 20vw;
+    top: 35vh;
+  }
+}
+
 p {
   font-size: 18px;
   line-height: 1.5em;
