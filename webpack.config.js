@@ -29,7 +29,7 @@ module.exports = {
           ]
         },
         {
-          test: require.resolve('owl-carousel'),
+          test: require.resolve('jquery'),
           use: 'imports-loader?this=>window'
         }
       ]
