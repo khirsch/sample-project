@@ -84,6 +84,12 @@ footer {
     background-position: center;
     width: 100%;
     height: auto;
+    filter: brightness(60%);
+
+    &:hover {
+      transition: .5s;
+      filter: brightness(100%);
+    }
 
     @media #{$desktop} {
       width: 50%;
