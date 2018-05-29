@@ -17,7 +17,7 @@ h1 {
   font-weight: normal;
   font-size: 40px;
 
-  @media only screen and (min-width: 960px) {
+  @media #{$desktop} {
     font-size: 70px;
   }
 }
@@ -65,8 +65,12 @@ footer {
   ul {
     text-align: center;
     padding: 1em;
-    margin-top: 8em;
+    margin-top: 3em;
     text-transform: uppercase;
+
+    @media #{$desktop} {
+      margin-top: 8em;
+    }
   }
 
   li {
@@ -74,7 +78,11 @@ footer {
   }
 
   p:first-of-type {
-    padding: 0 5.5em;
+    padding: 0 1em;
+
+    @media #{$desktop} {
+      padding: 0 5.5em;
+    }
   }
 
   p:last-of-type {
@@ -107,7 +115,7 @@ footer {
 #main-feature {
   h1 {
     padding: 15vh 0 0;
-    @media only screen and (min-width: 960px) {
+    @media #{$desktop} {
       padding: 30vh 0 0;
       margin: 0
     }
@@ -116,7 +124,7 @@ footer {
   p {
     padding: 0 1em;
 
-    @media only screen and (min-width: 960px) {
+    @media #{$desktop} {
       padding: 0 24em;
     }
   }
@@ -130,7 +138,7 @@ footer {
   p {
     padding: 0 1em;
 
-    @media only screen and (min-width: 960px) {
+    @media #{$desktop} {
     padding: 0 8em;
     }
   }

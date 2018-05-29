@@ -9,7 +9,7 @@ header {
 nav {
   display: none;
 
-  @media only screen and (min-width: 960px) {
+  @media #{$desktop} {
     display: block;
     float: right;
     text-align: right;
@@ -26,8 +26,12 @@ section {
 footer {
   div {
     height: 80vh;
-    width: 50vw;
-    float: left;
+    width: 100vw;
+
+    @media #{$desktop} {
+      width: 50vw;
+      float: left;
+    }
 
     &:first-of-type {
       background-image: url($image-path + '/footer-bg.jpg');
@@ -60,7 +64,7 @@ footer {
     width: 100vw;
     padding: 2em 1em 0;
 
-    @media only screen and (min-width: 960px) {
+    @media #{$desktop} {
       float: left;
       width: 50vw;
       margin: 10em 0;
@@ -79,10 +83,11 @@ footer {
     background-position: center;
     max-height: 500px;
     width: 100%;
-    height: auto;
+    // height: 100%;
 
-    @media only screen and (min-width: 960px) {
+    @media #{$desktop} {
       width: 50%;
+      height: auto;
     }
 
     &:nth-of-type(1) {

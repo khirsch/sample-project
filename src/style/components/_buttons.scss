@@ -45,7 +45,7 @@ button {
     display: block;
     margin: 3.5em auto;
 
-    @media only screen and (min-width: 960px) {
+    @media #{$desktop} {
       margin: auto;
     }
   }

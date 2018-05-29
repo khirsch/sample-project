@@ -16,7 +16,7 @@ i {
   right: 0px;
   margin: 1.5em 1em;
 
-  @media only screen and (min-width: 960px) {
+  @media #{$desktop} {
     display: none;
   }
 }
