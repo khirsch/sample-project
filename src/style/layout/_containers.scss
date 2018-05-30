@@ -60,6 +60,10 @@ footer {
     height: 25px;
     display: inline-block;
     margin: 1em;
+
+    &:hover {
+      cursor: pointer;
+    }
   }
 
   .slide-selector.active {
